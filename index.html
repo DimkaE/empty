@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/1140_flex.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="libs/dropdown/dropdown.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+
+<a href="#" data-fancybox data-src="#modal-call">обратный звонок</a>
+
+<form class="form_t1" id="with_file_form">
+    <div class="col2 big_btn_wrap">
+        <div class="big_btn_upload red_btn">
+            <p class="p16" id="file_field">
+                Прикрепить макет или тех. задание на макет</p>
+        </div>
+        <input type="file" name="file_t" id="file_t"><br>
+
+    </div>
+</form>
+
+<div class="modal" id="modal-call" style="display: none">
+    <div class="modal__inner">
+        <p class="modal__head">Заказать звонок</p>
+        <form class="formv">
+            <input type="hidden" name="form_name" value="Оставить заявку">
+            <div class="st-input1">
+                <p class="st-input1__label">E-mail для уведомлений</p>
+                <input type="email" name="email" class="st-input1__input required">
+                <p class="st-input1__error-msg"></p>
+            </div>
+            <div class="st-input1">
+                <p class="st-input1__label">Телефон*</p>
+                <input type="tel" name="phone" class="st-input1__input required">
+                <p class="st-input1__error-msg"></p>
+            </div>
+            <button>Заказать</button>
+        </form>
+    </div>
+</div>
+<div class="modal" id="modal-thanks" style="display: none">
+    <div class="modal__inner">
+        <p class="modal__head">Спасибо за заявку!<br>Мы свяжемся с Вами в ближайшее время</p>
+    </div>
+</div>
+<div class="modal" id="modal-error" style="display: none">
+    <div class="modal__inner">
+        <p class="modal__head">При отправке произошла ошибка<br>Пожалуйста, повторите попытку позже</p>
+    </div>
+</div>
+<div class="ajax-loader"></div>
+<script src="libs/jquery-3.2.1.min.js"></script>
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+<script src="libs/dropdown/core.js"></script>
+<script src="libs/dropdown/dropdown.js"></script>
+<script src="libs/jquery.mask.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

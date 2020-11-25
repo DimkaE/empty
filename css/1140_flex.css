@@ -1,0 +1,95 @@
+.container{
+    margin:0 auto;
+    max-width:80rem;
+    padding:0 .75rem;
+}
+.container-full{
+    margin:0 auto;
+    max-width:1920px;
+}
+.flex{
+    display:flex;
+    margin:0 -.75rem;
+}
+.flex1{display:flex;}
+.flex-center{justify-content:center;}
+.flex-justify{justify-content:space-between;}
+.flex-end{justify-content:flex-end;}
+.flex-wrap{flex-wrap:wrap;}
+.flex-v-center{align-items:center;}
+.flex-v-end{align-items:flex-end;}
+.flex-full{flex:1;}
+.flex-none{flex:none;}
+.flex-column{
+    display:flex;
+    flex-direction:column;
+}
+.col0,
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.col9,
+.col10,
+.col11,
+.col12{padding:0 .75rem;}
+.col1{flex:0 0 8.33%;}
+.col2{flex:0 0 16.66%;}
+.col3{flex:0 0 25%;}
+.col4{flex:0 0 33.33%;}
+.col5{flex:0 0 41.66%;}
+.col6{flex:0 0 50%;}
+.col7{flex:0 0 58.33%;}
+.col8{flex:0 0 66.66%;}
+.col9{flex:0 0 75%;}
+.col10{flex:0 0 83.33%;}
+.col11{flex:0 0 91.66%;}
+.col12{flex:0 0 100%;}
+.text-center{text-align:center;}
+.text-right{text-align:right;}
+.block{display:block;}
+.ttu{text-transform:uppercase;}
+.show-768,
+.show-550{display:none;}
+
+@media screen and (max-width:768px){
+    .hide-768{display:none;}
+    .show-768{display:block;}
+    .flex-wrap-768{flex-wrap:wrap;}
+    .flex-start-768{justify-content:flex-start;}
+    .col1-768{flex:0 0 8.33%;}
+    .col2-768{flex:0 0 16.66%;}
+    .col3-768{flex:0 0 25%;}
+    .col4-768{flex:0 0 33.33%;}
+    .col5-768{flex:0 0 41.66%;}
+    .col6-768{flex:0 0 50%;}
+    .col7-768{flex:0 0 58.33%;}
+    .col8-768{flex:0 0 66.66%;}
+    .col9-768{flex:0 0 75%;}
+    .col10-768{flex:0 0 83.33%;}
+    .col11-768{flex:0 0 91.66%;}
+    .col12-768{flex:0 0 100%;}
+}
+
+@media screen and (max-width:550px){
+    .hide-550{display:none;}
+    .show-550{display:block;}
+    .flex-wrap-550{flex-wrap:wrap;}
+    .flex-start-550{justify-content:flex-start;}
+    .col1-550{flex:0 0 8.33%;}
+    .col2-550{flex:0 0 16.66%;}
+    .col3-550{flex:0 0 25%;}
+    .col4-550{flex:0 0 33.33%;}
+    .col5-550{flex:0 0 41.66%;}
+    .col6-550{flex:0 0 50%;}
+    .col7-550{flex:0 0 58.33%;}
+    .col8-550{flex:0 0 66.66%;}
+    .col9-550{flex:0 0 75%;}
+    .col10-550{flex:0 0 83.33%;}
+    .col11-550{flex:0 0 91.66%;}
+    .col12-550{flex:0 0 100%;}
+}
