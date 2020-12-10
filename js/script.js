@@ -157,6 +157,7 @@ function validateInput($input) {
     if ($input.attr('type') == 'text') {
         if ($input.val().length < 1) {
             filled = false;
+            error = 'Обязательно для заполнения';
         }
     }
     if ($input.attr('type') == 'tel') {
