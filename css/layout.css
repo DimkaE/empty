@@ -47,7 +47,7 @@ body{font-family:'roboto',sans-serif;}
 .st-input1{
     position:relative;
     background:#F0F0F0;
-    padding:1.25rem 1rem .75rem 1rem;
+    padding:0 1rem 0 1rem;
     border-radius:.35rem;
     margin-bottom:.9rem;
 }
@@ -69,6 +69,7 @@ body{font-family:'roboto',sans-serif;}
 }
 .st-input1__input{
     border:0;
+    padding:1.25rem 0 .75rem 0;
     font-size:1rem;
     color:#000000;
     position:relative;
