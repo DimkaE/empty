@@ -1,33 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f5d6851-561b-49ef-ae8c-c683315302a6" name="Default Changelist" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Пустой проект.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/1140_flex.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ajax-loader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ico_error.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ico_success.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/dropdown/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/dropdown/dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/dropdown/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fancybox/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fancybox/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jquery.mask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/owlcarousel/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/owlcarousel/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res.php" afterDir="false" />
+    <list default="true" id="7f5d6851-561b-49ef-ae8c-c683315302a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +46,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606325992008</updated>
-      <workItem from="1606325993187" duration="1912000" />
+      <workItem from="1606325993187" duration="2261000" />
+      <workItem from="1606374331706" duration="32000" />
+      <workItem from="1606386737018" duration="168000" />
+      <workItem from="1607596430130" duration="213000" />
+      <workItem from="1607601994373" duration="63000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1606327913144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606327913144</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Input padding">
+      <created>1607596594880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607596594880</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Input error">
+      <created>1607602045124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607602045124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,12 +82,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2419" y="845" width="912" height="907" key="CommitChangelistDialog2" timestamp="1606327585140">
-      <screen x="1920" y="768" width="1920" height="1080" />
-    </state>
-    <state x="2419" y="845" width="912" height="907" key="CommitChangelistDialog2/1920.768.1920.1080/0.768.1920.1080/1182.0.1366.768/3840.768.1600.900@1920.768.1920.1080" timestamp="1606327585140" />
+    <MESSAGE value="Input padding" />
+    <MESSAGE value="Input error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input error" />
   </component>
 </project>
