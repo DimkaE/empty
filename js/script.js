@@ -200,6 +200,42 @@ function validateInput($input) {
 }
 
 /**
+ * Валидация чекбоксов
+ * @param parent
+ * @returns {number}
+ */
+function validateCheckbox(parent) {
+    let checked = 0;
+    parent.find('input[type=checkbox]').each(function (e) {
+        if ($(this).is(':checked')) {
+            checked = 1;
+        }
+    });
+    if (!checked) {
+        parent.find('.st-input1__error-msg').html('Выберите хотя бы один вариант');
+    }
+    return checked;
+}
+
+/**
+ * Валидация радио
+ * @param parent
+ * @returns {number}
+ */
+function validateRadio(parent) {
+    let checked = 0;
+    parent.find('input[type=radio]').each(function (e) {
+        if ($(this).is(':checked')) {
+            checked = 1;
+        }
+    });
+    if (!checked) {
+        parent.find('.st-input1__error-msg').html('Выберите один вариант');
+    }
+    return checked;
+}
+
+/**
  * Валидация формы
  * @param form
  * @returns {boolean}
@@ -211,18 +247,12 @@ function validateForm(form) {
         if (filled) filled = result
     });
     form.find('.checkbox_group').each(function () {
-        let checked = 0;
-        $(this).find('input[type=checkbox]').each(function (e) {
-            if ($(this).is(':checked')) {
-                checked = 1;
-            }
-        });
-        if (!checked) {
-            if (!$(this).next('.st-input__error').length) {
-                $(this).after('<p class="st-input__error">Выберите хотя бы один вариант</p>');
-            }
-            filled = false;
-        }
+        let result = validateCheckbox($(this));
+        if (filled) filled = result
+    });
+    form.find('.radio_group').each(function () {
+        let result = validateRadio($(this));
+        if (filled) filled = result
     });
     return filled;
 }
